@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout"
+    android:layout_width="280dp"
+    android:layout_height="200dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.5">
+
+
+    <Button
+        android:id="@+id/numPadBtn_7"
+        android:tag="7"
+        style="@style/NumPadBtn"
+        android:text="7"
+        app:layout_column="0"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/numPadBtn_8"
+        android:tag="8"
+        style="@style/NumPadBtn"
+        android:text="8"
+        app:layout_column="1"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/numPadBtn_9"
+        android:tag="9"
+        style="@style/NumPadBtn"
+        android:text="9"
+        app:layout_column="2"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/numPadBtn_cancel"
+        android:tag="cancel"
+        style="@style/NumPadBtn"
+        android:text="C"
+        app:layout_column="3"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/numPadBtn_4"
+        android:tag="4"
+        style="@style/NumPadBtn"
+        android:text="4"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/numPadBtn_5"
+        android:tag="5"
+        style="@style/NumPadBtn"
+        android:text="5"
+        app:layout_column="1"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/numPadBtn_6"
+        android:tag="6"
+        style="@style/NumPadBtn"
+        android:text="6"
+        app:layout_column="2"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/numPadBtn_X"
+        android:tag="x"
+        style="@style/NumPadBtn"
+        android:text="C"
+        app:layout_column="3"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/numPadBtn_1"
+        android:tag="1"
+        style="@style/NumPadBtn"
+        android:text="1"
+        app:layout_column="0"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/numPadBtn_2"
+        android:tag="2"
+        style="@style/NumPadBtn"
+        android:text="2"
+        app:layout_column="1"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/numPadBtn_3"
+        android:tag="3"
+        style="@style/NumPadBtn"
+        android:text="3"
+        app:layout_column="2"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/numPadBtn_Y"
+        android:tag="y"
+        style="@style/NumPadBtn"
+        android:text="C"
+        app:layout_column="3"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/numPadBtn_0"
+        android:tag="0"
+        style="@style/NumPadBtn"
+        android:text="0"
+        app:layout_column="0"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/numPadBtn_00"
+        android:tag="00"
+        style="@style/NumPadBtn"
+        android:text="00"
+        app:layout_column="1"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/numPadBtn_point"
+        android:tag="point"
+        style="@style/NumPadBtn"
+        android:text=","
+        app:layout_column="2"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/numPadBtn_Z"
+        android:tag="z"
+        style="@style/NumPadBtn"
+        android:text="C"
+        app:layout_column="3"
+        app:layout_row="3" />
+
+</android.support.v7.widget.GridLayout>
+
+
+
